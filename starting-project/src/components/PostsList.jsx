@@ -18,7 +18,7 @@ function PostsList({ isPosting, onStopPosting }){
             setIsFetching(false)
         }
         fetchPosts()
-      }, [])
+    }, [])
 
     function addPostHandler(postData){
         fetch('http://localhost:8080/posts', {
