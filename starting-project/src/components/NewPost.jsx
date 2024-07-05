@@ -18,7 +18,7 @@ function NewPost({ onCancel, onAddPost }) {
         event.preventDefault();
         const postData = {
             body: enteredBody,
-            authoe: enteredAuthor
+            author: enteredAuthor
         }
         onAddPost(postData);
         onCancel()
